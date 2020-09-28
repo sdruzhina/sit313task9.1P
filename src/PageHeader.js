@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Hero from './Hero'
-import { Container, Segment, Menu, Header, Button } from 'semantic-ui-react'
+import { Container, Segment, Menu, Button } from 'semantic-ui-react'
 
 function PageHeader() {
   return (
