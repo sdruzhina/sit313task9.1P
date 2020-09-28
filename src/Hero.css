@@ -1,0 +1,7 @@
+.heroImage {
+    height: 520px;
+	width: 100%;
+    background-image: url(/images/pexels-pixabay-373543.jpg);
+    background-size: cover;
+    background-position: center;
+}
