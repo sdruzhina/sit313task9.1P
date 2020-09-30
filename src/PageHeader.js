@@ -19,6 +19,9 @@ function PageHeader() {
             size='large'
           >
           <Container>
+            <Menu.Item>
+              <h3>iCrowdTask</h3>
+            </Menu.Item>
             <Menu.Item as='a' active>
               Home
             </Menu.Item>
