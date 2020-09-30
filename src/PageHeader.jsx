@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Hero from './Hero'
 import { Container, Segment, Menu, Button } from 'semantic-ui-react'
 
@@ -9,15 +8,14 @@ function PageHeader() {
         <Segment
           inverted
           textAlign='center'
-          style={{ height: 500, padding: '1em 0em' }}
           vertical
         >
-          <Menu
-            inverted='true'
-            pointing='true'
-            secondary='true'
-            size='large'
-          >
+        <Menu
+          inverted='true'
+          pointing='true'
+          secondary='true'
+          size='large'
+        >
           <Container>
             <Menu.Item>
               <h3>iCrowdTask</h3>
