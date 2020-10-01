@@ -17,7 +17,6 @@ function MainContent() {
             <RequesterList />
           </Card.Group>
         </Container>
-
       </Segment>
     </div>
   );
