@@ -1,5 +1,6 @@
 import React from 'react';
 import RequesterList from './RequesterList'
+import './MainContent.css';
 import { Container, Segment, Header, Card } from 'semantic-ui-react'
 
 function MainContent() {
