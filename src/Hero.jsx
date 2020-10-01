@@ -4,7 +4,7 @@ import { Header } from 'semantic-ui-react'
 
 function Hero() {
   return (
-    <div class="heroImage">
+    <div className="heroImage">
         <Header
           content='iCrowdTask'
           inverted

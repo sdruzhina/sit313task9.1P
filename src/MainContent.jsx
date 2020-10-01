@@ -1,6 +1,6 @@
 import React from 'react';
 import RequesterList from './RequesterList'
-import { Container, Segment, Header } from 'semantic-ui-react'
+import { Container, Segment, Header, Card } from 'semantic-ui-react'
 
 function MainContent() {
   return (
@@ -12,7 +12,9 @@ function MainContent() {
           Featured Requesters
         </Header>
         <Container>
+          <Card.Group centered itemsPerRow={3}>
             <RequesterList />
+          </Card.Group>
         </Container>
 
       </Segment>
